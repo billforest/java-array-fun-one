@@ -1,0 +1,46 @@
+/*
+ * Project: ArrayTwoDFun2.java
+ * Description: Learning 2D arrays 2
+ * Name: Jaehyung Lim
+ * Date: Oct 15, 2015
+ */
+
+public class ArrayTwoDFun2 {
+  
+  public static void main( String[] args ) {
+    
+    String[][] pizza = {
+      {
+        "crust",               // pizzai[i][0] = category heading
+        "original",            
+        "thin",
+        "deep dish"
+      },
+      {
+        "toppings",
+        "cheese",
+        "olives",
+        "pepperoni",
+        "potatoes",
+        "peppers",
+        "onions",
+        "anchovies",
+        "bbq chicken",
+        "beef"
+      },
+      {
+        "extras",
+        "sweet potato mousse",
+        "cola",
+        "cider",
+        "parmensan",
+        "hot sauce",
+        "garlic dipping sauce"
+      }
+    };
+    
+    System.out.println( "Welcome to Papa John's Pizza! Can I take your order?" );
+    
+    for( 
+    
+}
