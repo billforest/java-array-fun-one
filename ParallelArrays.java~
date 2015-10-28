@@ -1,0 +1,41 @@
+/*
+ * Project: ParallelArrays.java
+ * Description: Using parallel Arrays and Array Methods
+ * Name: Jaehyung Lim
+ * Date: Oct 28, 2015
+ */
+
+import java.util.Scanner;    // gets User input
+import java.util.Arrays;     // allows sorting and other things
+import java.util.ArrayList;  // not using today (flexible arrays)
+
+public class ParallelArrays {
+  
+  public static void main( String[] args ) {
+    
+    // Create parallel arrays to input Student names + grades
+    int numStudents = 4;  // sets array length
+    String name[] = new String[ numStudents ];
+    int grade[] = new int[ numStudents ];
+    
+    for ( int i = 0, i<numStudents; i++ ) {
+     
+      Scanner s1 = new Scanner( System.in );  // for names
+          System.out.println( "Enter the student name: " );
+          name[i] = s1.nextLine();
+      
+      Scanner s2 = new Scanner( System.in );  // for grades
+          System.out.println( "Enter the student grade: " );
+          grade[i] = s2.nextInt();
+      
+    }
+    
+    // print names + grades
+    for ( int j = 0; j<numStduents; j++ ) {
+     
+      System.out.println( "GRADEBOOK WIZARD" );
+      System.out.print( name[j] + ":\t" + grade[j] );
+    }
+    
+  }
+}
